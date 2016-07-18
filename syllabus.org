@@ -1,0 +1,32 @@
+* 使用基础
+** 必修
+ 1. https://github.com/jlevy/the-art-of-command-line art of command line(无需100%掌握, 可慢慢学习)
+ 2. Numpy
+ 3. /Sed & Awk/ https://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_1?ie=UTF8&qid=1468804906&sr=8-1&keywords=sed+and+awk 有中文版
+ 4. 正则表达式
+** 编辑器二选一(日常慢慢学, 不需要系统学习)
+ 1. Vim
+ 2. Emacs
+** 文档格式二选一
+ 1. Markdown(建议)
+ 2. Org
+
+* DL相关
+** 二选一
+ 1. http://cs231n.github.io/ CV课程
+ 2. http://cs224d.stanford.edu/ NLP课程
+** 选修
+ 1. https://www.coursera.org/learn/neural-networks Geoffrey Hinton
+ 2. https://www.coursera.org/learn/machine-learning Andrew Ng ML
+ 3. https://www.udacity.com/course/intro-to-parallel-programming--cs344 CUDA编程
+ 4. https://www.gnu.org/software/octave/ Octave(apt 可以直接安装)
+** 参考教材
+ 1. http://www.deeplearningbook.org/ https://github.com/HFTrader/DeepLearningBook /The Deep Learning Book/
+** 参考资料
+ 1. http://ufldl.stanford.edu/ http://deeplearning.stanford.edu/tutorial/ http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
+ 2. 工具库, 自选
+ 3. http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/ 实践经验
+ 4. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
+* 多样性阅读
+  TODO
