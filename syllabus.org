@@ -2,7 +2,7 @@
 ** 必修
  1. https://github.com/jlevy/the-art-of-command-line art of command line(无需100%掌握, 可慢慢学习)
  2. Numpy
- 3. /Sed & Awk/ https://www.amazon.cn/sed-awk-Dale-Dougherty/dp/1565922255/ref=sr_1_1?ie=UTF8&qid=1468804906&sr=8-1&keywords=sed+and+awk 有中文版
+ 3. /Sed & Awk/ https://book.douban.com/subject/1236944/
  4. 正则表达式
 ** 编辑器二选一(日常慢慢学, 不需要系统学习)
  1. Vim
@@ -29,4 +29,9 @@
  4. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 * 多样性阅读
-  TODO
+  1. https://book.douban.com/subject/4083265/
+  2. https://www.coursera.org/learn/programming-languages
+  3. https://movie.douban.com/subject/1437389/
+  4. https://book.douban.com/subject/1632977/
+  5. https://book.douban.com/subject/25881855/
+  6. ./ebooks/eric_raymond_five-0.8.0.pdf
