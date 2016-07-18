@@ -24,14 +24,15 @@
  1. http://www.deeplearningbook.org/ https://github.com/HFTrader/DeepLearningBook /The Deep Learning Book/
 ** 参考资料
  1. http://ufldl.stanford.edu/ http://deeplearning.stanford.edu/tutorial/ http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
- 2. 工具库, 自选
+ 2. 工具库, 自选(Tensorflow, MXnet, torch, deeplearning4j, theano...)
  3. http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/ 实践经验
  4. http://karpathy.github.io/2015/05/21/rnn-effectiveness/
 
 * 多样性阅读
   1. https://book.douban.com/subject/4083265/
-  2. https://www.coursera.org/learn/programming-languages
-  3. https://movie.douban.com/subject/1437389/
-  4. https://book.douban.com/subject/1632977/
-  5. https://book.douban.com/subject/25881855/
-  6. ./ebooks/eric_raymond_five-0.8.0.pdf
+  2. https://book.douban.com/subject/1467587/
+  3. https://www.coursera.org/learn/programming-languages
+  4. https://movie.douban.com/subject/1437389/
+  5. https://book.douban.com/subject/1632977/
+  6. https://book.douban.com/subject/25881855/
+  7. ./ebooks/eric_raymond_five-0.8.0.pdf
