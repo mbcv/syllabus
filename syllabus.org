@@ -45,3 +45,7 @@
   5. https://book.douban.com/subject/1632977/
   6. https://book.douban.com/subject/25881855/
   7. ./ebooks/eric_raymond_five-0.8.0.pdf
+* 4. 实践内容
+  https://www.kaggle.com/
+  + 完成其中的一个入门数据集任务
+  + 参加一个正在举行的数据比赛
