@@ -281,3 +281,121 @@ help eye %help命令
 
 #### 5.2 Moving Data Around（移动数据）
 
+	size(A) %返回矩阵的大小（行数，列数）
+
+	length(v) %返回向量的长度/矩阵最大维度的大小
+
+	cd,ls,pwd等命令也可以用
+
+键入文档名字，如featuresX.dat即可把数据读入Octave，也可以用load('featureX.dat')，效果相同
+
+	who %查看当前工作空间的所有变量
+
+	whos %更详细地查看
+
+	clear featuresX %删除某个变量
+
+	v = priceY(1:10) %将向量Y的前10个存入v中
+
+	save hello.mat v %将变量v存成一个叫hell.mat的文件中（压缩的二进制形式）
+
+	save hello.txt v -ascii %将数据的ascii码存成文本文档
+
+	A([1,3],:) %取A的第1,3行的每一列
+
+	A(:,2)=[1;2;3] %把A的第二列替换为1,2,3
+	
+	A=[A,[1;2;3]] %在A的右边附上一个新添加的列矩阵
+	
+	A(:) %把A的所有元素放入一个单独的列向量
+	
+	C=[A B] %把两个矩阵直接连在一起，A在左边，B在右边组成C
+	
+	C=[A;B] %A在上面，B在下面
+	
+#### 5.3 Computing on Data(计算数据)
+
+	A*B %矩阵乘法
+	
+	A.*B &点乘运算，对应元素相乘
+	
+	A.^2 %对矩阵每一个元素平方
+	
+	1./A %对每个元素求倒数
+	
+	log(A) %对每个元素求对数
+
+	exp(A) %对每个元素求幂，e为底
+	
+	-A %每个元素取相反数
+	
+	A+1 %每个元素加一
+	
+	A' %转置
+	
+	a=[1 2 3]
+	val=max(a) %向量最大值
+	[val,ind]=max(a) %向量最大值存入val，对应索引存入ind
+	
+	[a,b]=max[A] %每列最大的值存入a，索引存入b
+	
+	a<2 %逐元素的运算，返回1或0
+	
+	find(a<2) %返回小于2的元素的位置
+	
+	magic(3) %返回一个行列对角线加起来相同的矩阵
+	
+	[r,c]=find(A>=7) %把>=7的元素的行赋给r，列赋给c
+	
+	sum(a) %把a所有元素加起来
+	prod(a) %返回元素的乘积
+	floor(a) %对a的元素向下四舍五入，0.5->0
+	ceil(a) %向上四舍五入0.5->1
+	rand(3) %得到3*3随机数矩阵
+	
+	max(A,[],1) %得到A每一列的最大值
+	max(A,[],2) %得到A每一行的最大值
+	
+	max(A) %返回的是每一列的最大值
+	max(max(A)) / max(A(:)) %A矩阵的最大值
+	
+	pinv(A) %求逆矩阵
+	
+#### 5.4 Plotting Data（绘图数据）
+
+	t=[0:0.01:0.98];
+	t
+	yi=sin(2*pi*4*t);
+	plot(t,y1)
+	
+	hold on %将新的图像绘制在旧的之上
+	
+	plot(t,y1,'r') %标记颜色
+	xlabel('time') %标记x轴
+	ylabel('value') %标记y轴
+	legend('sin','cos') %将图例放在右上方
+	title('myplot') %显示标题
+	
+	print-dpng 'myplot.png' %保存为一个文件
+	close %把图像关掉
+	
+	figure(1);%显示第一张图
+	subplot(1,2,1) %将图像分成1*2的格子，然后使用第一个格子
+	axis([0.5 1 -1 1]) %将横轴的范围调整至0.5到1，竖轴的范围为-1到1
+	Clf %清除一幅图像
+	
+	imagesc(A) %绘制A矩阵成一个彩色格图
+	colorbar %右边加入颜色条
+	colormap gray %灰度分布图
+	
+#### 5.5 Control Statements_for,while,if statements
+
+for,while,if最后要加end
+
+Octave的函数可以返回多个值
+
+	[a,b]=SquareAndCubeThisNumber(5)
+	
+#### 5.6 Vectorization（向量化）
+
+用向量化实现方式，能使代码高效简洁。
